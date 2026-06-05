@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Ginger",
+    "scientific_name": "Zingiber officinale",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": ["Lung", "Spleen", "Stomach"]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, may increase Pitta",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "Traditionally used in many cultures as a warming digestive support.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Generally safe in culinary amounts.",
+    "contraindications": ["Blood-thinning medication", "Gallstones"],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Warming Ginger Infusion",
+        "description": "Traditionally used to warm the body and support digestion.",
+        "instructions": "Steep 3-5 thin slices of fresh ginger in hot water for 10 minutes."
+      }
+    ]
+  },
+  {
+    "name": "Peppermint",
+    "scientific_name": "Mentha piperita",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Pungent",
+      "meridians": ["Liver", "Lung"]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic), especially cooling for Pitta",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Known for its refreshing aroma and traditional use in soothing digestive discomfort.",
+    "astrological_assoc": "Mercury",
+    "safety_notes": "Avoid if you have severe acid reflux.",
+    "contraindications": ["Gastroesophageal reflux disease (GERD)"],
+    "rituals": [
+      {
+        "tradition": "Acupressure",
+        "title": "Refreshing Temple Ritual",
+        "description": "Combine the scent of peppermint with gentle pressure for a mid-day refresh.",
+        "instructions": "Inhale the scent of fresh peppermint while gently massaging the temples in circular motions."
+      }
+    ]
+  },
+  {
+    "name": "Turmeric",
+    "scientific_name": "Curcuma longa",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Bitter/Pungent",
+      "meridians": ["Spleen", "Stomach", "Liver", "Heart"]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Kapha, may increase Vata and Pitta if used in excess",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "A cornerstone of Ayurvedic wellness, traditionally used for vitality and joint comfort.",
+    "astrological_assoc": "Jupiter",
+    "safety_notes": "May stain surfaces and clothing.",
+    "contraindications": ["Bile duct obstruction", "Pregnancy (in medicinal amounts)"],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Golden Milk Ritual",
+        "description": "A traditional evening ritual for grounding and vitality.",
+        "instructions": "Whisk 1/2 tsp turmeric into 1 cup of warm plant-based milk with a pinch of black pepper."
+      }
+    ]
+  },
+  {
+    "name": "Chamomile",
+    "scientific_name": "Matricaria chamomilla",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Neutral/Cool",
+      "taste": "Bitter/Sweet",
+      "meridians": ["Liver", "Spleen", "Stomach"]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "One of the most beloved herbs in European folk tradition for evening relaxation.",
+    "astrological_assoc": "Sun",
+    "safety_notes": "Avoid if you have a known allergy to ragweed or the Asteraceae family.",
+    "contraindications": ["Ragweed allergy"],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Starlight Steep",
+        "description": "A gentle ritual to signal the transition to rest.",
+        "instructions": "Steep 1 tbsp of dried chamomile flowers in hot water for 5 minutes before bed."
+      }
+    ]
+  },
+  {
+    "name": "Cinnamon",
+    "scientific_name": "Cinnamomum verum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Hot",
+      "taste": "Pungent/Sweet",
+      "meridians": ["Heart", "Kidney", "Liver", "Spleen"]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Light/Dry/Penetrating"
+    },
+    "folk_wisdom": "Traditionally associated with warmth, abundance, and digestive fire.",
+    "astrological_assoc": "Sun",
+    "safety_notes": "Cassia cinnamon contains coumarin; Ceylon (true) cinnamon is preferred for regular use.",
+    "contraindications": ["Liver disease (if using Cassia)"],
+    "rituals": [
+      {
+        "tradition": "Astrology",
+        "title": "Solar Vitality Brew",
+        "description": "Cinnamon is ruled by the Sun and is traditionally used to support inner warmth.",
+        "instructions": "Add a cinnamon stick to your morning tea or coffee to invite solar energy into your day."
+      }
+    ]
+  }
+]

@@ -1,52 +1,54 @@
 import { PrismaClient } from "@prisma/client";
-import sampleIngredients from "../data/sample_ingredients.json";
+import seedDataRaw from "../data/seed-ingredients.json";
 
 const prisma = new PrismaClient();
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const seedData: any[] = seedDataRaw as any[];
 
 async function main() {
   console.log("🌱 Seeding ingredient database...");
 
-  // Check if data already exists
   const existingCount = await prisma.ingredient.count();
   if (existingCount > 0) {
     console.log(`📦 ${existingCount} ingredients already exist. Skipping seed.`);
     return;
   }
 
-  for (const item of sampleIngredients) {
+  for (const item of seedData) {
     const ingredient = await prisma.ingredient.create({
       data: {
         name: item.name,
-        scientificName: item.scientific_name,
-        category: item.category,
-        tcmProperties: item.tcm_properties as any,
-        ayurvedicProperties: item.ayurvedic_properties as any,
-        folkWisdom: item.folk_wisdom,
-        astrologicalAssoc: item.astrological_assoc,
-        safetyNotes: item.safety_notes,
-        contraindications: item.contraindications as any,
+        scientificName: item.scientific_name || null,
+        category: item.category || "Other",
+        tcmProperties: item.tcm_properties || {},
+        ayurvedicProperties: item.ayurvedic_properties || {},
+        folkWisdom: item.folk_wisdom || null,
+        astrologicalAssoc: item.astrological_assoc || null,
+        safetyNotes: item.safety_notes || null,
+        contraindications: item.contraindications || [],
       },
     });
 
-    // Create wellness suggestions
+    // Create wellness suggestions from rituals
     if (item.rituals && Array.isArray(item.rituals)) {
       for (const ritual of item.rituals) {
         await prisma.wellnessSuggestion.create({
           data: {
             ingredientId: ingredient.id,
-            tradition: ritual.tradition,
-            title: ritual.title,
-            description: ritual.description,
-            instructions: ritual.instructions,
+            tradition: ritual.tradition || "Folk",
+            title: ritual.title || `${item.name} Ritual`,
+            description: ritual.description || "",
+            instructions: ritual.instructions || "",
           },
         });
       }
     }
 
-    console.log(`  ✅ Seeded: ${item.name}`);
+    console.log(`  ✅ ${item.name}`);
   }
 
-  console.log("🎉 Seeding complete!");
+  console.log(`🎉 Seeded ${seedData.length} ingredients with rituals!`);
 }
 
 main()

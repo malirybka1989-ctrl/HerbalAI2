@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HerbaAI Ingredient",
+  "type": "object",
+  "required": ["name", "scientific_name", "category"],
+  "properties": {
+    "name": { "type": "string" },
+    "scientific_name": { "type": "string" },
+    "category": { "type": "string" },
+    "tcm_properties": {
+      "type": "object",
+      "properties": {
+        "nature": { "type": "string" },
+        "taste": { "type": "string" },
+        "meridians": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "ayurvedic_properties": {
+      "type": "object",
+      "properties": {
+        "dosha": { "type": "string" },
+        "guna": { "type": "string" }
+      }
+    },
+    "folk_wisdom": { "type": "string" },
+    "astrological_assoc": { "type": "string" },
+    "safety_notes": { "type": "string" },
+    "contraindications": { "type": "array", "items": { "type": "string" } },
+    "rituals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tradition": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "instructions": { "type": "string" }
+        }
+      }
+    }
+  }
+}
