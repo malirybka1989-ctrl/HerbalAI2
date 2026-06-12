@@ -1,7 +1,8 @@
 /**
  * API configuration for the HerbaAI mobile app.
- * Update BASE_URL to point to the deployed API server.
+ * Uses the backend at localhost:3000 for development.
  */
+
 export const API = {
   BASE_URL: process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3000/api',
   ENDPOINTS: {
@@ -18,7 +19,12 @@ export const API = {
       ADD_ITEM: '/pantry/items/add',
       REMOVE_ITEM: '/pantry/items/remove',
     },
-    SUGGESTIONS: '/suggestions',
+    INGREDIENTS: {
+      SEARCH: '/ingredients/search',
+    },
+    SUGGESTIONS: {
+      DAILY: '/suggestions/daily',
+    },
     SUBSCRIPTION: {
       STATUS: '/subscription/status',
       PLANS: '/subscription/plans',

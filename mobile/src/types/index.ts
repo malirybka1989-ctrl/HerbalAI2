@@ -85,11 +85,23 @@ export interface PantryScanResult {
   ingredients_used: string[];
   ai_response: {
     essence: string;
-    ritual: string;
-    tradition_wisdom: string;
+    suggestions: SuggestionGroup[];
+    traditions_used: string[];
     safety_note: string;
   };
   created_at: string;
+}
+
+export interface SuggestionGroup {
+  tradition: string;
+  items: SuggestionItem[];
+}
+
+export interface SuggestionItem {
+  ingredient: string;
+  title: string;
+  description: string;
+  instructions: string;
 }
 
 // --- Practitioners & Consultations ---
@@ -142,7 +154,7 @@ export type RootStackParamList = {
   Auth: undefined;
   MainTabs: undefined;
   PantryScan: undefined;
-  ScanResults: { scanId: string };
+  ScanResults: { scanId: string; scanResult?: PantryScanResult };
   SuggestionDetail: { suggestionId: string };
   PractitionerDetail: { practitionerId: string };
   ConsultationBooking: { practitionerId: string };
@@ -155,4 +167,15 @@ export type MainTabParamList = {
   Pantry: undefined;
   Explore: undefined;
   Profile: undefined;
-};
+};/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'

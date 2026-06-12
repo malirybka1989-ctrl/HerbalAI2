@@ -41,7 +41,10 @@ export default function PantryScanScreen({ navigation }: any) {
     setScanning(true);
     try {
       const result = await pantryApi.scan(ingredients);
-      navigation.navigate('ScanResults', { scanId: result.id });
+      navigation.navigate('ScanResults', {
+        scanId: result.id,
+        scanResult: result,
+      });
     } catch (error: any) {
       Alert.alert('Scan Failed', error.message || 'Could not complete scan. Please try again.');
     } finally {
@@ -256,4 +259,9 @@ const styles = StyleSheet.create({
     ...typography.button,
     color: colors.textOnPrimary,
   },
-});
+});/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
