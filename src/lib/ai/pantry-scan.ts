@@ -1,37 +1,11 @@
 import OpenAI from 'openai';
-import { SYSTEM_PROMPT, generatePantryScanPrompt } from './prompts';
-import { validateAIResponse, isAskingForMedicalAdvice } from './guardrails';
+import { SYSTEM_PROMPT, generatePantryScanPrompt } from './prompt-templates';
+import { validateAIResponse, isAskingForMedicalAdvice } from './compliance-guardrails';
+import { PantryScanRequest, PantryScanResponse } from './types';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
-
-export interface PantryScanRequest {
-  ingredients: string[];
-  context: {
-    season?: string;
-    timeOfDay?: string;
-    moonPhase?: string;
-    preferences?: {
-      focus?: string;
-      allergies?: string[];
-      contraindications?: string[];
-    };
-  };
-}
-
-export interface PantryScanResponse {
-  summary: string;
-  suggestions: {
-    title: string;
-    tradition: string;
-    description: string;
-    instructions: string;
-    safety_note: string;
-  }[];
-  disclaimer: string;
-  violations?: string[];
-}
 
 export async function runPantryScan(
   request: PantryScanRequest
