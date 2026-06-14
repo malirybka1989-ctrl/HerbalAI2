@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import sampleIngredients from "../data/sample_ingredients.json";
+import sampleIngredients from "./ingredients-seed.json";
 
 const prisma = new PrismaClient();
 
@@ -13,18 +13,18 @@ async function main() {
     return;
   }
 
-  for (const item of sampleIngredients) {
+  for (const item of sampleIngredients as any[]) {
     const ingredient = await prisma.ingredient.create({
       data: {
         name: item.name,
         scientificName: item.scientific_name,
         category: item.category,
-        tcmProperties: item.tcm_properties as any,
-        ayurvedicProperties: item.ayurvedic_properties as any,
+        tcmProperties: item.tcm_properties,
+        ayurvedicProperties: item.ayurvedic_properties,
         folkWisdom: item.folk_wisdom,
         astrologicalAssoc: item.astrological_assoc,
         safetyNotes: item.safety_notes,
-        contraindications: item.contraindications as any,
+        contraindications: item.contraindications,
       },
     });
 
@@ -56,4 +56,21 @@ main()
   })
   .finally(async () => {
     await prisma.$disconnect();
-  });
+  });/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
