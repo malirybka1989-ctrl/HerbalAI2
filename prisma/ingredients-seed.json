@@ -1,0 +1,1601 @@
+[
+  {
+    "name": "Ginger",
+    "scientific_name": "Zingiber officinale",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Lung",
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, may increase Pitta",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "Traditionally used in many cultures as a warming digestive support.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Generally safe in culinary amounts.",
+    "contraindications": [
+      "Blood-thinning medication",
+      "Gallstones"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Warming Ginger Infusion",
+        "description": "Traditionally used to warm the body and support digestion.",
+        "instructions": "Steep 3-5 thin slices of fresh ginger in hot water for 10 minutes."
+      }
+    ]
+  },
+  {
+    "name": "Peppermint",
+    "scientific_name": "Mentha piperita",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Pungent",
+      "meridians": [
+        "Liver",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic), especially cooling for Pitta",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Known for its refreshing aroma and traditional use in soothing digestive discomfort.",
+    "astrological_assoc": "Mercury",
+    "safety_notes": "Avoid if you have severe acid reflux.",
+    "contraindications": [
+      "Gastroesophageal reflux disease (GERD)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Acupressure",
+        "title": "Refreshing Temple Ritual",
+        "description": "Combine the scent of peppermint with gentle pressure for a mid-day refresh.",
+        "instructions": "Inhale the scent of fresh peppermint while gently massaging the temples in circular motions."
+      }
+    ]
+  },
+  {
+    "name": "Turmeric",
+    "scientific_name": "Curcuma longa",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Bitter/Pungent",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Liver",
+        "Heart"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Kapha, may increase Vata and Pitta if used in excess",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "A cornerstone of Ayurvedic wellness, traditionally used for vitality and joint comfort.",
+    "astrological_assoc": "Jupiter",
+    "safety_notes": "May stain surfaces and clothing.",
+    "contraindications": [
+      "Bile duct obstruction",
+      "Pregnancy (in medicinal amounts)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Golden Milk Ritual",
+        "description": "A traditional evening ritual for grounding and vitality.",
+        "instructions": "Whisk 1/2 tsp turmeric into 1 cup of warm plant-based milk with a pinch of black pepper."
+      }
+    ]
+  },
+  {
+    "name": "Chamomile",
+    "scientific_name": "Matricaria chamomilla",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Neutral/Cool",
+      "taste": "Bitter/Sweet",
+      "meridians": [
+        "Liver",
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "One of the most beloved herbs in European folk tradition for evening relaxation.",
+    "astrological_assoc": "Sun",
+    "safety_notes": "Avoid if you have a known allergy to ragweed or the Asteraceae family.",
+    "contraindications": [
+      "Ragweed allergy"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Starlight Steep",
+        "description": "A gentle ritual to signal the transition to rest.",
+        "instructions": "Steep 1 tbsp of dried chamomile flowers in hot water for 5 minutes before bed."
+      }
+    ]
+  },
+  {
+    "name": "Cinnamon",
+    "scientific_name": "Cinnamomum verum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Hot",
+      "taste": "Pungent/Sweet",
+      "meridians": [
+        "Heart",
+        "Kidney",
+        "Liver",
+        "Spleen"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Light/Dry/Penetrating"
+    },
+    "folk_wisdom": "Traditionally associated with warmth, abundance, and digestive fire.",
+    "astrological_assoc": "Sun",
+    "safety_notes": "Cassia cinnamon contains coumarin; Ceylon (true) cinnamon is preferred for regular use.",
+    "contraindications": [
+      "Liver disease (if using Cassia)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Astrology",
+        "title": "Solar Vitality Brew",
+        "description": "Cinnamon is ruled by the Sun and is traditionally used to support inner warmth.",
+        "instructions": "Add a cinnamon stick to your morning tea or coffee to invite solar energy into your day."
+      }
+    ]
+  },
+  {
+    "name": "Honey",
+    "scientific_name": "Apis mellifera (source)",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Neutral",
+      "taste": "Sweet",
+      "meridians": [
+        "Lung",
+        "Spleen",
+        "Large Intestine"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Kapha, may increase Pitta and Vata if old",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "Universal sweetener and base for traditional syrups; used for soothing the throat.",
+    "astrological_assoc": "Sun/Venus",
+    "safety_notes": "Do not give to children under 1 year old.",
+    "contraindications": [
+      "Infant botulism risk",
+      "Diabetes (monitor intake)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Sweet Intention Spoon",
+        "description": "A ritual to start the day with sweetness and clarity.",
+        "instructions": "Take a teaspoon of raw honey, let it dissolve slowly in the mouth while setting a positive intention."
+      }
+    ]
+  },
+  {
+    "name": "Lemon",
+    "scientific_name": "Citrus limon",
+    "category": "Fruit",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Sour",
+      "meridians": [
+        "Stomach",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Used globally for cleansing rituals and digestive support.",
+    "astrological_assoc": "Sun/Moon",
+    "safety_notes": "High acidity may affect tooth enamel if consumed in large amounts.",
+    "contraindications": [
+      "Sensitive stomach",
+      "Severe acid reflux"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Morning Cleansing Water",
+        "description": "A simple ritual to awaken the digestive system.",
+        "instructions": "Squeeze half a fresh lemon into a glass of warm water. Sip first thing in the morning."
+      }
+    ]
+  },
+  {
+    "name": "Garlic",
+    "scientific_name": "Allium sativum",
+    "category": "Vegetable",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Heavy/Oily/Penetrating"
+    },
+    "folk_wisdom": "Known as the 'Poor Man's Treacle', historically used for protection and vitality.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Can cause strong breath and body odor; may cause digestive upset if raw.",
+    "contraindications": [
+      "Blood-thinning medication",
+      "Pre-surgery"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Vitality Broth",
+        "description": "A traditional winter ritual for seasonal resilience.",
+        "instructions": "Simmer 3 crushed garlic cloves in a vegetable broth. Consume slowly during cold months."
+      }
+    ]
+  },
+  {
+    "name": "Lavender",
+    "scientific_name": "Lavandula angustifolia",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Pungent/Bitter",
+      "meridians": [
+        "Heart",
+        "Liver"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Vata",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Beloved for its calming aroma and used in sleep rituals for centuries.",
+    "astrological_assoc": "Mercury",
+    "safety_notes": "Generally safe, but some people may have sensitivities to the essential oil.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Dreamweaving Sachet",
+        "description": "A traditional practice to support restful sleep.",
+        "instructions": "Place dried lavender flowers in a small cloth bag and keep it under your pillow."
+      }
+    ]
+  },
+  {
+    "name": "Rosemary",
+    "scientific_name": "Salvia rosmarinus",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Liver",
+        "Spleen"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Light/Dry/Penetrating"
+    },
+    "folk_wisdom": "The herb of 'Remembrance'; historically used to support focus and mental clarity.",
+    "astrological_assoc": "Sun",
+    "safety_notes": "Use sparingly in pregnancy (culinary amounts are fine).",
+    "contraindications": [
+      "High blood pressure (in large amounts)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Focus Smoke/Steam",
+        "description": "A ritual to clear the mind before study or creative work.",
+        "instructions": "Add a sprig of fresh rosemary to a bowl of hot water. Inhale the steam for 2 minutes."
+      }
+    ]
+  },
+  {
+    "name": "Thyme",
+    "scientific_name": "Thymus vulgaris",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Lung",
+        "Spleen"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Symbol of courage; traditionally used for seasonal support and respiratory comfort.",
+    "astrological_assoc": "Venus/Mars",
+    "safety_notes": "Avoid excessive amounts in pregnancy.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Courageous Steam",
+        "description": "A ritual to clear the air and bolster inner strength.",
+        "instructions": "Place fresh thyme in a bowl of steaming water. Inhale deeply while visualizing yourself overcoming a challenge."
+      }
+    ]
+  },
+  {
+    "name": "Basil",
+    "scientific_name": "Ocimum basilicum",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Lung",
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Known as the 'King of Herbs'; used for protection and to uplift the spirit.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Generally safe.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Joyous Pesto Ritual",
+        "description": "A culinary ritual to invite abundance and joy into the home.",
+        "instructions": "Hand-crush fresh basil leaves with oil and salt, focusing on the vibrant green color and uplifting scent."
+      }
+    ]
+  },
+  {
+    "name": "Oregano",
+    "scientific_name": "Origanum vulgare",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Lung",
+        "Spleen"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Means 'Joy of the Mountain'; traditionally used for its cleansing properties.",
+    "astrological_assoc": "Venus",
+    "safety_notes": "Oil of oregano is very potent and should be used with caution.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Mountain Joy Infusion",
+        "description": "A ritual to cleanse the palate and spirit.",
+        "instructions": "Steep a small sprig of oregano in hot water. Sip slowly after a heavy meal."
+      }
+    ]
+  },
+  {
+    "name": "Sage",
+    "scientific_name": "Salvia officinalis",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Pungent/Bitter",
+      "meridians": [
+        "Liver",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Kapha, increases Vata and Pitta",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Associated with wisdom and long life; used for 'smudging' or clearing energy.",
+    "astrological_assoc": "Jupiter",
+    "safety_notes": "Avoid in large amounts during breastfeeding as it may reduce milk supply.",
+    "contraindications": [
+      "Pregnancy (medicinal amounts)",
+      "Breastfeeding"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Wisdom Clearing",
+        "description": "A ritual to clear mental fog and invite clarity.",
+        "instructions": "Gently rub a fresh sage leaf between your fingers and inhale the scent before making an important decision."
+      }
+    ]
+  },
+  {
+    "name": "Cloves",
+    "scientific_name": "Syzygium aromaticum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Kidney"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Heavy/Oily/Penetrating"
+    },
+    "folk_wisdom": "Used traditionally for tooth comfort and as a warming digestive aid.",
+    "astrological_assoc": "Jupiter",
+    "safety_notes": "Very potent; use sparingly.",
+    "contraindications": [
+      "Blood-thinning medication",
+      "Sensitive mucous membranes"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Spiced Hearth Warmth",
+        "description": "A winter ritual to bring warmth to the center of the body.",
+        "instructions": "Poke 3-5 whole cloves into an orange and keep it in your living space for a warming aroma."
+      }
+    ]
+  },
+  {
+    "name": "Cardamom",
+    "scientific_name": "Elettaria cardamomum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic)",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "The 'Queen of Spices'; used for its elegant aroma and digestive support.",
+    "astrological_assoc": "Venus",
+    "safety_notes": "Generally safe.",
+    "contraindications": [
+      "Gallstones"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Clarity Pod Ritual",
+        "description": "A ritual to freshen the breath and clear the mind.",
+        "instructions": "Gently chew on one green cardamom pod after a meal to support digestion and mental freshness."
+      }
+    ]
+  },
+  {
+    "name": "Fennel",
+    "scientific_name": "Foeniculum vulgare",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent/Sweet",
+      "meridians": [
+        "Liver",
+        "Kidney",
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic)",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Believed to bestow strength and courage; widely used for digestive comfort.",
+    "astrological_assoc": "Mercury",
+    "safety_notes": "Generally safe.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Sun-Kissed Sight Ritual",
+        "description": "Traditionally associated with clarity of vision (both physical and mental).",
+        "instructions": "Steep fennel seeds in hot water and use the steam to gently warm the face (eyes closed)."
+      }
+    ]
+  },
+  {
+    "name": "Star Anise",
+    "scientific_name": "Illicium verum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent/Sweet",
+      "meridians": [
+        "Liver",
+        "Kidney",
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Used in protective amulets and for its beautiful symmetry in seasonal rituals.",
+    "astrological_assoc": "Jupiter",
+    "safety_notes": "Ensure it is true Star Anise and not the toxic Japanese Star Anise.",
+    "contraindications": [
+      "None known for true Star Anise in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Eight-Pointed Protection",
+        "description": "A ritual to center oneself and invite protection.",
+        "instructions": "Hold a whole star anise and count its eight points while breathing deeply to ground your energy."
+      }
+    ]
+  },
+  {
+    "name": "Cumin",
+    "scientific_name": "Cuminum cyminum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Liver"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic), especially good for Vata",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Associated with fidelity and grounding; a staple for digestive fire.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Generally safe.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Agni Kindle Ritual",
+        "description": "A ritual to stoke the digestive fire (Agni).",
+        "instructions": "Dry-toast cumin seeds until fragrant. Inhale the aroma before using them in a meal."
+      }
+    ]
+  },
+  {
+    "name": "Coriander",
+    "scientific_name": "Coriandrum sativum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Pungent",
+      "meridians": [
+        "Lung",
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic), especially cooling for Pitta",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Used in ancient Egypt; associated with peace and tranquility.",
+    "astrological_assoc": "Venus",
+    "safety_notes": "Generally safe.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Pitta-Cooling Infusion",
+        "description": "A gentle ritual to balance heat in the body.",
+        "instructions": "Soak coriander seeds in room-temperature water overnight. Strain and sip the water during a hot day."
+      }
+    ]
+  },
+  {
+    "name": "Black Pepper",
+    "scientific_name": "Piper nigrum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Hot",
+      "taste": "Pungent",
+      "meridians": [
+        "Stomach",
+        "Large Intestine"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Light/Dry/Penetrating"
+    },
+    "folk_wisdom": "The 'Black Gold'; used to drive away cold and stimulate the internal fire.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Use sparingly if you have an active stomach ulcer.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Trikatu Fire Ritual",
+        "description": "Part of the traditional Trikatu blend to awaken metabolism.",
+        "instructions": "Add a pinch of freshly ground black pepper to warm water with ginger and honey before a heavy meal."
+      }
+    ]
+  },
+  {
+    "name": "Cayenne Pepper",
+    "scientific_name": "Capsicum annuum",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Hot",
+      "taste": "Pungent",
+      "meridians": [
+        "Heart",
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Kapha, may increase Vata, strongly increases Pitta",
+      "guna": "Light/Dry/Penetrating"
+    },
+    "folk_wisdom": "Associated with quickening the blood and sparking transformation.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Avoid contact with eyes; very irritating to mucous membranes.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Circulation Spark",
+        "description": "A ritual to warm the extremities during winter.",
+        "instructions": "Add a tiny pinch of cayenne to your morning lemon water to 'wake up' the blood."
+      }
+    ]
+  },
+  {
+    "name": "Saffron",
+    "scientific_name": "Crocus sativus",
+    "category": "Spice",
+    "tcm_properties": {
+      "nature": "Neutral/Warm",
+      "taste": "Sweet",
+      "meridians": [
+        "Heart",
+        "Liver"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic)",
+      "guna": "Light/Unctuous"
+    },
+    "folk_wisdom": "The spice of joy and enlightenment; used to brighten the spirit.",
+    "astrological_assoc": "Sun/Jupiter",
+    "safety_notes": "Very expensive; a few threads are sufficient. Avoid large amounts in pregnancy.",
+    "contraindications": [
+      "Pregnancy (medicinal amounts)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Golden Spirit Steep",
+        "description": "A ritual to invite happiness and mental clarity.",
+        "instructions": "Soak 3-5 saffron threads in warm milk or water for 15 minutes. Sip while focusing on the color gold."
+      }
+    ]
+  },
+  {
+    "name": "Rose",
+    "scientific_name": "Rosa damascena",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Sweet/Bitter",
+      "meridians": [
+        "Liver",
+        "Spleen"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta, may increase Kapha/Vata if cold",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Symbol of love and the heart; used in traditional beauty and emotional rituals.",
+    "astrological_assoc": "Venus",
+    "safety_notes": "Ensure petals are food-grade and pesticide-free.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Heart-Opening Tea",
+        "description": "A ritual to soothe the emotions and move stuck energy.",
+        "instructions": "Steep dried rose buds in hot water. Inhale the floral scent deeply before every sip."
+      }
+    ]
+  },
+  {
+    "name": "Elderberry",
+    "scientific_name": "Sambucus nigra",
+    "category": "Fruit",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Sweet/Sour",
+      "meridians": [
+        "Lung",
+        "Large Intestine"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "The 'Medicine Chest' of the common people; used for seasonal support.",
+    "astrological_assoc": "Venus/Saturn",
+    "safety_notes": "Raw berries and other plant parts are toxic; must be cooked/processed.",
+    "contraindications": [
+      "Autoimmune conditions (consult doctor)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Winter Gateway Syrup",
+        "description": "A seasonal ritual to mark the beginning of the cold months.",
+        "instructions": "Cook elderberries with honey and spices into a syrup. Take a spoonful daily during the winter solstice."
+      }
+    ]
+  },
+  {
+    "name": "Echinacea",
+    "scientific_name": "Echinacea purpurea",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Bitter/Pungent",
+      "meridians": [
+        "Lung",
+        "Stomach",
+        "Liver"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha, may increase Vata",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "Native American tradition; used to bolster the body's resilience.",
+    "astrological_assoc": "Mars/Saturn",
+    "safety_notes": "May cause a tingling sensation on the tongue (normal).",
+    "contraindications": [
+      "Asteraceae allergy",
+      "Autoimmune conditions"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Root Resilience Steep",
+        "description": "A ritual to honor the body's natural boundaries.",
+        "instructions": "Steep echinacea root for 10-15 minutes. Sip while visualizing a protective field of energy around you."
+      }
+    ]
+  },
+  {
+    "name": "Nettle",
+    "scientific_name": "Urtica dioica",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Bitter/Salty",
+      "meridians": [
+        "Liver",
+        "Kidney",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha, may increase Vata",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "A powerful spring tonic; used to 'cleanse the blood' after winter.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Handle fresh leaves with gloves to avoid stings; stinging property is lost when dried or cooked.",
+    "contraindications": [
+      "Pregnancy (consult doctor)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Spring Renewal Infusion",
+        "description": "A ritual to welcome the energy of spring.",
+        "instructions": "Steep dried nettle leaves for at least 20 minutes to extract the minerals. Drink to feel the earth's vitality."
+      }
+    ]
+  },
+  {
+    "name": "Dandelion",
+    "scientific_name": "Taraxacum officinale",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cold",
+      "taste": "Bitter/Sweet",
+      "meridians": [
+        "Liver",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha, increases Vata",
+      "guna": "Dry/Light"
+    },
+    "folk_wisdom": "The 'Lion's Tooth'; used to support the Liver and move stagnant energy.",
+    "astrological_assoc": "Jupiter",
+    "safety_notes": "Diuretic effect; ensure you stay hydrated.",
+    "contraindications": [
+      "Bile duct obstruction"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Liver-Smoothing Steep",
+        "description": "A ritual to release frustration and move Liver Qi.",
+        "instructions": "Steep dandelion root or leaves. As you drink, visualize any 'stuck' emotions dissolving like dandelion seeds in the wind."
+      }
+    ]
+  },
+  {
+    "name": "Licorice",
+    "scientific_name": "Glycyrrhiza glabra",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Neutral",
+      "taste": "Sweet",
+      "meridians": [
+        "All 12 meridians, especially Heart, Lung, Spleen, Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Pitta, may increase Kapha",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "The 'Great Harmonizer'; used to blend other herbs together and soothe the throat.",
+    "astrological_assoc": "Venus/Mercury",
+    "safety_notes": "Avoid long-term use if you have high blood pressure.",
+    "contraindications": [
+      "High blood pressure",
+      "Kidney disease"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Harmonizing Sip",
+        "description": "A ritual to bring balance to a chaotic day.",
+        "instructions": "Add a small piece of licorice root to any herbal tea. Focus on how it rounds out and sweetens the other flavors."
+      }
+    ]
+  },
+  {
+    "name": "Ashwagandha",
+    "scientific_name": "Withania somnifera",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Bitter/Astringent",
+      "meridians": [
+        "Kidney",
+        "Liver",
+        "Spleen"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, may increase Pitta",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "The 'Strength of a Horse'; used for grounding and restorative sleep.",
+    "astrological_assoc": "Saturn",
+    "safety_notes": "May cause drowsiness; best taken in the evening.",
+    "contraindications": [
+      "Hyperthyroidism",
+      "Pregnancy"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Grounded Sleep Ritual",
+        "description": "A ritual to anchor the energy before bed.",
+        "instructions": "Mix 1/2 tsp ashwagandha powder into warm milk with nutmeg. Drink slowly while feeling your weight sink into the earth."
+      }
+    ]
+  },
+  {
+    "name": "Tulsi (Holy Basil)",
+    "scientific_name": "Ocimum tenuiflorum",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent",
+      "meridians": [
+        "Lung",
+        "Spleen",
+        "Heart"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Kapha and Vata, may increase Pitta",
+      "guna": "Light/Dry/Penetrating"
+    },
+    "folk_wisdom": "The 'Incomparable One'; considered a sacred plant in India for clearing the mind and spirit.",
+    "astrological_assoc": "Mercury",
+    "safety_notes": "Generally safe, but may have a mild blood-thinning effect.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Sacred Clarity Steep",
+        "description": "A ritual to lift the 'fog' of daily stress.",
+        "instructions": "Steep 5-7 fresh Tulsi leaves (or 1 tsp dried) in hot water. Inhale the spicy scent and focus on a single point of light."
+      }
+    ]
+  },
+  {
+    "name": "Hibiscus",
+    "scientific_name": "Hibiscus sabdariffa",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool/Cold",
+      "taste": "Sour/Sweet",
+      "meridians": [
+        "Kidney",
+        "Liver",
+        "Bladder"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha, increases Vata",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Known for its vibrant red color; used in traditional cooling summer drinks.",
+    "astrological_assoc": "Venus",
+    "safety_notes": "Very tart; often needs a sweetener to balance.",
+    "contraindications": [
+      "Low blood pressure (monitor intake)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Summer Cool-Down Ritual",
+        "description": "A ritual to release internal heat during hot days.",
+        "instructions": "Brew hibiscus tea and let it cool. Add a slice of orange. Drink while visualizing a cool, gentle rain."
+      }
+    ]
+  },
+  {
+    "name": "Green Tea",
+    "scientific_name": "Camellia sinensis",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool/Cold",
+      "taste": "Bitter/Sweet",
+      "meridians": [
+        "Heart",
+        "Lung",
+        "Stomach",
+        "Large Intestine",
+        "Bladder"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha, increases Vata",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "A cornerstone of Asian wellness; used for mental alertness and longevity.",
+    "astrological_assoc": "Mars/Sun",
+    "safety_notes": "Contains caffeine; avoid late in the day if sensitive.",
+    "contraindications": [
+      "Iron deficiency (may inhibit absorption)"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Mindful Morning Steep",
+        "description": "A ritual to clarify the senses and gather the Qi.",
+        "instructions": "Whisk or steep green tea leaves in water below boiling. Watch the leaves unfurl and take 3 deep breaths before sipping."
+      }
+    ]
+  },
+  {
+    "name": "Apple Cider Vinegar",
+    "scientific_name": "Malus domestica (fermented)",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Sour/Bitter",
+      "meridians": [
+        "Liver",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha, increases Pitta",
+      "guna": "Light/Dry/Penetrating"
+    },
+    "folk_wisdom": "A traditional European 'cure-all'; used for digestion and skin rituals.",
+    "astrological_assoc": "Mars",
+    "safety_notes": "Always dilute before consuming or applying to skin.",
+    "contraindications": [
+      "Low potassium levels",
+      "Severe digestive ulcers"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Digestive Kindle Ritual",
+        "description": "A ritual to prepare the body for nourishment.",
+        "instructions": "Mix 1 tsp of ACV in a cup of water. Drink 15 minutes before a meal to 'awaken' the stomach."
+      }
+    ]
+  },
+  {
+    "name": "Coconut Oil",
+    "scientific_name": "Cocos nucifera",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Neutral/Cool",
+      "taste": "Sweet",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Heart"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Vata, increases Kapha (if in excess)",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "The 'Tree of Life'; used for its cooling and nourishing properties.",
+    "astrological_assoc": "Moon",
+    "safety_notes": "Highly stable for cooking at medium heat.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Oil Pulling Ritual",
+        "description": "A traditional morning practice for oral and systemic clarity.",
+        "instructions": "Swish 1 tbsp of coconut oil in the mouth for 10-15 minutes, then spit out (do not swallow)."
+      }
+    ]
+  },
+  {
+    "name": "Olive Oil",
+    "scientific_name": "Olea europaea",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Neutral",
+      "taste": "Sweet",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Liver"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata, may increase Pitta and Kapha (if in excess)",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "Sacred oil of the Mediterranean; symbol of peace and longevity.",
+    "astrological_assoc": "Sun/Jupiter",
+    "safety_notes": "Best used raw or at low heat to preserve delicate compounds.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Anointing Peace Ritual",
+        "description": "A ritual to calm the nerves and protect the skin.",
+        "instructions": "Gently massage a few drops of olive oil into the hands or temples after a long day."
+      }
+    ]
+  },
+  {
+    "name": "Sea Salt",
+    "scientific_name": "Sodium chloride (natural source)",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Cold",
+      "taste": "Salty",
+      "meridians": [
+        "Kidney",
+        "Stomach",
+        "Large Intestine",
+        "Small Intestine"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata, increases Pitta and Kapha",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "Used for purification and protection in almost every traditional culture.",
+    "astrological_assoc": "Moon/Saturn",
+    "safety_notes": "Essential for life, but excess can lead to fluid retention.",
+    "contraindications": [
+      "High blood pressure (monitor intake)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Threshold Cleansing",
+        "description": "A ritual to clear the energy of a space.",
+        "instructions": "Sprinkle a tiny pinch of sea salt at the corners of a room or threshold to invite grounded energy."
+      }
+    ]
+  },
+  {
+    "name": "Baking Soda",
+    "scientific_name": "Sodium bicarbonate",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Salty",
+      "meridians": [
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Reduces Pitta (in very small amounts)",
+      "guna": "Light"
+    },
+    "folk_wisdom": "Used as a traditional alkalizing agent and for cleansing the home.",
+    "astrological_assoc": "Saturn",
+    "safety_notes": "Use very sparingly internally; consult a professional first.",
+    "contraindications": [
+      "Kidney disease",
+      "Alkalosis risk"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Foot Refresh Ritual",
+        "description": "A ritual to draw out tiredness from the feet.",
+        "instructions": "Dissolve 2 tbsp of baking soda in a basin of warm water. Soak feet for 10 minutes."
+      }
+    ]
+  },
+  {
+    "name": "Epsom Salt",
+    "scientific_name": "Magnesium sulfate",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Salty/Bitter",
+      "meridians": [
+        "Liver",
+        "Kidney"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta and Kapha",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Named after the town in England; traditionally used for magnesium baths and relaxation.",
+    "astrological_assoc": "Saturn",
+    "safety_notes": "For external use primarily; do not ingest without professional advice.",
+    "contraindications": [
+      "None known for external use"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Starlight Soaking Ritual",
+        "description": "A ritual to release the day's tension.",
+        "instructions": "Add 1 cup of Epsom salts to a warm bath. Soak for 20 minutes under dim light."
+      }
+    ]
+  },
+  {
+    "name": "Rice",
+    "scientific_name": "Oryza sativa",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Neutral",
+      "taste": "Sweet",
+      "meridians": [
+        "Spleen",
+        "Stomach"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic), especially white basmati",
+      "guna": "Heavy/Oily (Brown), Light (White)"
+    },
+    "folk_wisdom": "The foundation of life in many cultures; symbol of fertility and nourishment.",
+    "astrological_assoc": "Moon",
+    "safety_notes": "Generally safe for all.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Congee Comfort Ritual",
+        "description": "A ritual for times of transition or recovery.",
+        "instructions": "Cook 1 part rice in 6-8 parts water for several hours until it becomes a creamy porridge. Eat warm for grounding."
+      }
+    ]
+  },
+  {
+    "name": "Oats",
+    "scientific_name": "Avena sativa",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Sweet",
+      "meridians": [
+        "Spleen",
+        "Lung",
+        "Heart"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Pitta, increases Kapha (if cooked with milk)",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "A traditional nervine; used to 'soothe the nerves' and provide steady energy.",
+    "astrological_assoc": "Moon/Venus",
+    "safety_notes": "Generally safe; use gluten-free oats if sensitive.",
+    "contraindications": [
+      "Celiac disease (if not certified GF)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Nervine Nourishment",
+        "description": "A ritual for times of overwhelm.",
+        "instructions": "Slow-cook oats with a pinch of salt. Focus on the steady, grounding warmth of the bowl in your hands."
+      }
+    ]
+  },
+  {
+    "name": "Flaxseed",
+    "scientific_name": "Linum usitatissimum",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Neutral",
+      "taste": "Sweet",
+      "meridians": [
+        "Lung",
+        "Large Intestine",
+        "Liver"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata, increases Pitta and Kapha",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "Used for its lubrication and grounding qualities; associated with the flow of life.",
+    "astrological_assoc": "Venus",
+    "safety_notes": "Best if ground fresh; consume with plenty of water.",
+    "contraindications": [
+      "Acute digestive blockage"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Flow & Foundation Ritual",
+        "description": "A ritual to support inner movement and grounding.",
+        "instructions": "Add 1 tbsp of ground flaxseeds to your morning meal. Visualize your body's systems moving with ease and grace."
+      }
+    ]
+  },
+  {
+    "name": "Chia Seed",
+    "scientific_name": "Salvia hispanica",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Cool",
+      "taste": "Sweet",
+      "meridians": [
+        "Kidney",
+        "Spleen"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Pitta, may increase Kapha",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "Used by Aztec warriors for endurance and hydration; known as 'strength' seeds.",
+    "astrological_assoc": "Moon/Jupiter",
+    "safety_notes": "Absorbs many times its weight in water; always soak before consuming large amounts.",
+    "contraindications": [
+      "Swallowing difficulties (if not soaked)"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Warrior's Endurance Steep",
+        "description": "A ritual to build slow-release energy.",
+        "instructions": "Soak chia seeds in water or juice for 20 minutes. Drink the 'gel' while setting an intention for steady progress."
+      }
+    ]
+  },
+  {
+    "name": "Sesame Seed",
+    "scientific_name": "Sesamum indicum",
+    "category": "Household",
+    "tcm_properties": {
+      "nature": "Neutral/Warm",
+      "taste": "Sweet",
+      "meridians": [
+        "Kidney",
+        "Liver",
+        "Large Intestine"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata, may increase Pitta and Kapha",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "Symbol of immortality in some traditions; used for grounding and bone support.",
+    "astrological_assoc": "Saturn",
+    "safety_notes": "Black sesame is considered more potent for Kidney/Liver support in TCM.",
+    "contraindications": [
+      "None known in culinary amounts"
+    ],
+    "rituals": [
+      {
+        "tradition": "Ayurveda",
+        "title": "Self-Anointing Warmth",
+        "description": "A ritual to ground the Vata energy (using sesame oil).",
+        "instructions": "Warm a small amount of sesame oil and massage it into the soles of your feet before sleep."
+      }
+    ]
+  },
+  {
+    "name": "Goji Berry",
+    "scientific_name": "Lycium barbarum",
+    "category": "Fruit",
+    "tcm_properties": {
+      "nature": "Neutral",
+      "taste": "Sweet",
+      "meridians": [
+        "Liver",
+        "Kidney",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances all three doshas (Tridoshic)",
+      "guna": "Light"
+    },
+    "folk_wisdom": "Known as 'Red Diamonds'; used for longevity and bright eyes.",
+    "astrological_assoc": "Sun/Jupiter",
+    "safety_notes": "Generally safe; consume in moderate amounts.",
+    "contraindications": [
+      "Blood-thinning medication (monitor)"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Radiant Vision Steep",
+        "description": "A ritual to nourish the Liver and brighten the eyes.",
+        "instructions": "Add 10-15 goji berries to your tea. Once they are plump, eat them mindfully, focusing on visual clarity."
+      }
+    ]
+  },
+  {
+    "name": "Jujube (Red Date)",
+    "scientific_name": "Ziziphus jujuba",
+    "category": "Fruit",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Sweet",
+      "meridians": [
+        "Spleen",
+        "Stomach",
+        "Heart"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Pitta",
+      "guna": "Heavy/Oily"
+    },
+    "folk_wisdom": "The 'Date of Life'; used to nourish the blood and calm the mind.",
+    "astrological_assoc": "Sun/Moon",
+    "safety_notes": "Very sweet; use in moderation.",
+    "contraindications": [
+      "Bloating or dampness in the body (in excess)"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Heart-Calming Decoction",
+        "description": "A ritual to settle the spirit after a busy day.",
+        "instructions": "Simmer 3-5 red dates in water for 15 minutes. Drink the warm liquid and eat the dates to feel nourished."
+      }
+    ]
+  },
+  {
+    "name": "Chrysanthemum",
+    "scientific_name": "Chrysanthemum morifolium",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Cool/Cold",
+      "taste": "Bitter/Sweet",
+      "meridians": [
+        "Liver",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Pitta, may increase Vata and Kapha",
+      "guna": "Light/Dry"
+    },
+    "folk_wisdom": "Symbol of nobility and autumn; used to 'clear heat' and brighten the eyes.",
+    "astrological_assoc": "Sun/Venus",
+    "safety_notes": "Use food-grade flowers only.",
+    "contraindications": [
+      "Asteraceae allergy",
+      "Very cold constitution"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Golden Autumn Clearing",
+        "description": "A ritual to release the day's heat and tension.",
+        "instructions": "Steep 3-5 chrysanthemum flowers in hot water. Watch them float and imagine your mind becoming as clear as the tea."
+      }
+    ]
+  },
+  {
+    "name": "Astragalus",
+    "scientific_name": "Astragalus propinquus",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Sweet",
+      "meridians": [
+        "Spleen",
+        "Lung"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha",
+      "guna": "Heavy"
+    },
+    "folk_wisdom": "The 'Great Protector'; used to bolster the 'Upright Qi' or Wei Qi (protective energy).",
+    "astrological_assoc": "Mars/Jupiter",
+    "safety_notes": "Best used for long-term building, not during acute seasonal discomfort.",
+    "contraindications": [
+      "Acute stage of seasonal illness (fever)"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Wei Qi Shield Ritual",
+        "description": "A ritual to strengthen your energetic boundaries.",
+        "instructions": "Simmer astragalus root slices in your morning soup or tea. Visualize a golden shield of light around your body."
+      }
+    ]
+  },
+  {
+    "name": "Ginseng",
+    "scientific_name": "Panax ginseng",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Sweet/Bitter",
+      "meridians": [
+        "Spleen",
+        "Lung",
+        "Heart"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata, increases Pitta and Kapha",
+      "guna": "Heavy"
+    },
+    "folk_wisdom": "The 'Root of Man'; used as a powerful tonic for vitality and resilience.",
+    "astrological_assoc": "Sun",
+    "safety_notes": "Very potent; avoid high doses or use with stimulants like caffeine.",
+    "contraindications": [
+      "High blood pressure",
+      "Acute seasonal illness"
+    ],
+    "rituals": [
+      {
+        "tradition": "TCM",
+        "title": "Vitality Root Steep",
+        "description": "A ritual for deep restoration.",
+        "instructions": "Steep a few thin slices of ginseng in hot water. Sip slowly, focusing on the root's connection to the earth's deep power."
+      }
+    ]
+  },
+  {
+    "name": "Valerian",
+    "scientific_name": "Valeriana officinalis",
+    "category": "Herb",
+    "tcm_properties": {
+      "nature": "Warm",
+      "taste": "Pungent/Bitter",
+      "meridians": [
+        "Heart",
+        "Liver"
+      ]
+    },
+    "ayurvedic_properties": {
+      "dosha": "Balances Vata and Kapha",
+      "guna": "Heavy"
+    },
+    "folk_wisdom": "Known for its strong, earthy scent; used in traditional sleep and calming rituals.",
+    "astrological_assoc": "Mercury/Saturn",
+    "safety_notes": "The smell is very distinct and earthy; some find it unpleasant.",
+    "contraindications": [
+      "Liver disease (monitor long-term)",
+      "Combining with sedatives"
+    ],
+    "rituals": [
+      {
+        "tradition": "Folk Wisdom",
+        "title": "Deep Root Rest",
+        "description": "A ritual to descend into deep, earthy sleep.",
+        "instructions": "Steep valerian root for 10 minutes before bed. Inhale the grounding scent and let your body feel heavy like the root."
+      }
+    ]
+  }
+]

@@ -1,54 +1,52 @@
 import { PrismaClient } from "@prisma/client";
-import seedDataRaw from "../data/seed-ingredients.json";
+import sampleIngredients from "./ingredients-seed.json";
 
 const prisma = new PrismaClient();
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const seedData: any[] = seedDataRaw as any[];
 
 async function main() {
   console.log("🌱 Seeding ingredient database...");
 
+  // Check if data already exists
   const existingCount = await prisma.ingredient.count();
   if (existingCount > 0) {
     console.log(`📦 ${existingCount} ingredients already exist. Skipping seed.`);
     return;
   }
 
-  for (const item of seedData) {
+  for (const item of sampleIngredients as any[]) {
     const ingredient = await prisma.ingredient.create({
       data: {
         name: item.name,
-        scientificName: item.scientific_name || null,
-        category: item.category || "Other",
-        tcmProperties: item.tcm_properties || {},
-        ayurvedicProperties: item.ayurvedic_properties || {},
-        folkWisdom: item.folk_wisdom || null,
-        astrologicalAssoc: item.astrological_assoc || null,
-        safetyNotes: item.safety_notes || null,
-        contraindications: item.contraindications || [],
+        scientificName: item.scientific_name,
+        category: item.category,
+        tcmProperties: item.tcm_properties,
+        ayurvedicProperties: item.ayurvedic_properties,
+        folkWisdom: item.folk_wisdom,
+        astrologicalAssoc: item.astrological_assoc,
+        safetyNotes: item.safety_notes,
+        contraindications: item.contraindications,
       },
     });
 
-    // Create wellness suggestions from rituals
+    // Create wellness suggestions
     if (item.rituals && Array.isArray(item.rituals)) {
       for (const ritual of item.rituals) {
         await prisma.wellnessSuggestion.create({
           data: {
             ingredientId: ingredient.id,
-            tradition: ritual.tradition || "Folk",
-            title: ritual.title || `${item.name} Ritual`,
-            description: ritual.description || "",
-            instructions: ritual.instructions || "",
+            tradition: ritual.tradition,
+            title: ritual.title,
+            description: ritual.description,
+            instructions: ritual.instructions,
           },
         });
       }
     }
 
-    console.log(`  ✅ ${item.name}`);
+    console.log(`  ✅ Seeded: ${item.name}`);
   }
 
-  console.log(`🎉 Seeded ${seedData.length} ingredients with rituals!`);
+  console.log("🎉 Seeding complete!");
 }
 
 main()
@@ -58,4 +56,21 @@ main()
   })
   .finally(async () => {
     await prisma.$disconnect();
-  });
+  });/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
