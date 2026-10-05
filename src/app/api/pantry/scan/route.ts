@@ -1,222 +1,92 @@
 // ─── POST /api/pantry/scan ─────────────────────────────
-// AI-powered pantry scan endpoint with compliance guardrails
+// Mobile-facing pantry scan endpoint. Delegates to the same
+// real AI pipeline as /api/ai/pantry-scan and additionally
+// persists the scan record when the database is available.
 
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { generateWellnessSuggestions, getCurrentSeason, getCurrentMoonPhase } from "@/lib/ai";
-import { applyGuardrails } from "@/lib/guardrails";
-import { PantryScanRequest, PantryScanResponse, ApiError, AiContext } from "@/lib/types";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/auth";
+import { generatePantryScan } from "@/lib/ai/pantry-scan-service";
 
-// ─── Request Validation ────────────────────────────────
-
-function validateRequest(body: unknown): {
-  valid: boolean;
-  error?: ApiError;
-  data?: PantryScanRequest;
-} {
-  if (!body || typeof body !== "object") {
-    return {
-      valid: false,
-      error: { error: "Invalid request body", code: "INVALID_BODY" },
-    };
-  }
-
-  const req = body as Record<string, unknown>;
-
-  if (!req.ingredients || !Array.isArray(req.ingredients)) {
-    return {
-      valid: false,
-      error: {
-        error: "Missing or invalid 'ingredients' field",
-        code: "MISSING_INGREDIENTS",
-      },
-    };
-  }
-
-  if (req.ingredients.length === 0) {
-    return {
-      valid: false,
-      error: {
-        error: "At least one ingredient is required",
-        code: "EMPTY_INGREDIENTS",
-      },
-    };
-  }
-
-  if (req.ingredients.length > 20) {
-    return {
-      valid: false,
-      error: {
-        error: "Maximum 20 ingredients per scan",
-        code: "TOO_MANY_INGREDIENTS",
-      },
-    };
-  }
-
-  // Validate ingredient names are strings
-  const allStrings = (req.ingredients as unknown[]).every(
-    (i) => typeof i === "string" && i.trim().length > 0
-  );
-  if (!allStrings) {
-    return {
-      valid: false,
-      error: {
-        error: "All ingredients must be non-empty strings",
-        code: "INVALID_INGREDIENT_FORMAT",
-      },
-    };
-  }
-
-  return {
-    valid: true,
-    data: {
-      ingredients: (req.ingredients as string[]).map((i) => i.trim()),
-      goals: Array.isArray(req.goals) ? (req.goals as string[]) : [],
-      season:
-        typeof req.season === "string" ? req.season : getCurrentSeason(),
-      moonPhase:
-        typeof req.moonPhase === "string"
-          ? req.moonPhase
-          : getCurrentMoonPhase(),
-      contraindications: Array.isArray(req.contraindications)
-        ? (req.contraindications as string[])
-        : [],
-    },
-  };
-}
-
-// ─── Route Handler ─────────────────────────────────────
+const ANONYMOUS_ID = "anonymous";
 
 export async function POST(request: NextRequest) {
+  let body: unknown;
   try {
-    // Parse request body
-    const body = await request.json();
-
-    // Validate
-    const validation = validateRequest(body);
-    if (!validation.valid || !validation.data) {
-      return NextResponse.json(validation.error, { status: 400 });
-    }
-
-    const { ingredients, goals, season, moonPhase, contraindications } =
-      validation.data;
-
-    // Look up ingredients in database
-    const dbIngredients = await prisma.ingredient.findMany({
-      where: {
-        name: {
-          in: ingredients,
-          mode: "insensitive",
-        },
-      },
-    });
-
-    // Map to IngredientInfo format, using DB data or creating basic entries
-    const ingredientInfos = ingredients.map((name) => {
-      const dbIngredient = dbIngredients.find(
-        (db) => db.name.toLowerCase() === name.toLowerCase()
-      );
-      if (dbIngredient) {
-        return {
-          name: dbIngredient.name,
-          scientificName: dbIngredient.scientificName || undefined,
-          category: dbIngredient.category,
-          tcmProperties: dbIngredient.tcmProperties as any,
-          ayurvedicProperties: dbIngredient.ayurvedicProperties as any,
-          folkWisdom: dbIngredient.folkWisdom || undefined,
-          astrologicalAssoc: dbIngredient.astrologicalAssoc || undefined,
-          safetyNotes: dbIngredient.safetyNotes || undefined,
-          contraindications: (dbIngredient.contraindications as string[]) || [],
-        };
-      }
-      return {
-        name,
-        safetyNotes: `"${name}" is not in our ingredient database. Please verify it is safe for your use.`,
-        contraindications: [],
-      };
-    });
-
-    // Build AI context
-    const aiContext: AiContext = {
-      season: season || getCurrentSeason(),
-      moonPhase: moonPhase || getCurrentMoonPhase(),
-      goals: goals || [],
-      contraindications: contraindications || [],
-    };
-
-    // Generate AI suggestions
-    const aiResult = await generateWellnessSuggestions(ingredientInfos, aiContext);
-
-    // Apply compliance guardrails
-    const fullText = `${aiResult.essence}\n\n${aiResult.rituals.map((r) => `${r.title}: ${r.description}`).join("\n")}\n\n${aiResult.safetyNote}`;
-    const userContext = [...ingredients, ...contraindications].join(" ");
-
-    const { safeResponse, warnings, needsReview } = applyGuardrails(
-      fullText,
-      userContext
-    );
-
-    // Create a scan record in the database (if user is authenticated)
-    let scanId = `scan_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
-
-    try {
-      const scan = await prisma.pantryScan.create({
-        data: {
-          id: scanId,
-          userId: "anonymous", // Will be replaced with actual user ID when auth is implemented
-          ingredientsUsed: ingredients,
-          aiResponse: {
-            essence: aiResult.essence,
-            rituals: aiResult.rituals,
-            safetyNote: aiResult.safetyNote,
-            warnings,
-            needsReview,
-          },
-          ritualGenerated: aiResult.rituals.length > 0,
-        },
-      });
-      scanId = scan.id;
-    } catch (dbError) {
-      // If DB is not available (no PostgreSQL), still return the response
-      console.warn("Could not save scan to database:", dbError);
-    }
-
-    // Build response
-    const response: PantryScanResponse = {
-      id: scanId,
-      essence: aiResult.essence,
-      rituals: aiResult.rituals,
-      ingredientsUsed: ingredients,
-      safetyNote: aiResult.safetyNote,
-      disclaimer:
-        "⚠️ **Disclaimer**: This content is for informational and educational purposes only. It is not medical advice, diagnosis, or treatment. HerbaAI does not diagnose, cure, mitigate, treat, or prevent any disease. Always consult a qualified healthcare provider before making changes to your health regimen.",
-    };
-
-    // If under review, add a warning
-    if (needsReview) {
-      (response as any).reviewWarning =
-        "This response was flagged for review due to potentially restricted terminology.";
-    }
-
-    return NextResponse.json(response, { status: 200 });
-  } catch (error) {
-    console.error("Pantry scan error:", error);
-
+    body = await request.json();
+  } catch {
     return NextResponse.json(
-      {
-        error: "An unexpected error occurred",
-        code: "INTERNAL_ERROR",
-        details:
-          process.env.NODE_ENV === "development"
-            ? String(error)
-            : undefined,
-      } satisfies ApiError,
-      { status: 500 }
+      { error: "Invalid JSON body", code: "INVALID_BODY" },
+      { status: 400 }
     );
   }
-}
 
-// ─── Health Check ──────────────────────────────────────
+  const { ingredients, context } = (body || {}) as {
+    ingredients?: unknown;
+    context?: Parameters<typeof generatePantryScan>[1];
+  };
+
+  if (!ingredients || !Array.isArray(ingredients)) {
+    return NextResponse.json(
+      { error: "Missing or invalid 'ingredients' array", code: "MISSING_INGREDIENTS" },
+      { status: 400 }
+    );
+  }
+
+  const trimmed = ingredients
+    .filter((i): i is string => typeof i === "string" && i.trim().length > 0)
+    .map((i) => i.trim());
+
+  if (trimmed.length === 0) {
+    return NextResponse.json(
+      { error: "At least one ingredient is required", code: "EMPTY_INGREDIENTS" },
+      { status: 400 }
+    );
+  }
+
+  if (trimmed.length > 20) {
+    return NextResponse.json(
+      { error: "Maximum 20 ingredients per scan", code: "TOO_MANY_INGREDIENTS" },
+      { status: 400 }
+    );
+  }
+
+  const result = await generatePantryScan(trimmed, context);
+
+  if (!result.ok) {
+    return NextResponse.json(
+      { error: result.error, code: result.code },
+      { status: result.status }
+    );
+  }
+
+  // Persist the scan when possible (non-fatal if DB is unavailable).
+  let scanId: string | undefined;
+  try {
+    const session = await getServerSession(authOptions);
+    const userId = session?.user?.id || ANONYMOUS_ID;
+    const scan = await prisma.pantryScan.create({
+      data: {
+        userId,
+        ingredientsUsed: trimmed,
+        aiResponse: {
+          summary: result.response.summary,
+          suggestions: result.response.suggestions,
+        },
+        ritualGenerated: result.response.suggestions.length > 0,
+      },
+    });
+    scanId = scan.id;
+  } catch (dbError) {
+    console.warn("Could not persist scan to database:", dbError);
+  }
+
+  return NextResponse.json(
+    { ...result.response, id: scanId },
+    { status: 200 }
+  );
+}
 
 export async function GET() {
   return NextResponse.json({
